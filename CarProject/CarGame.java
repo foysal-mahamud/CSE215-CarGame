@@ -282,6 +282,14 @@ public class CarGame extends JFrame implements KeyListener, ActionListener {
         repaint();
     }
 
+
+    	@Override
+    	public void actionPerformed(ActionEvent arg0) {
+            		repaint();
+        }
+}
+
     @Override
     public void actionPerformed(ActionEvent arg0) {}
 }
+Page_Down
